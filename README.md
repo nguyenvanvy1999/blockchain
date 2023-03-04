@@ -35,11 +35,6 @@ AWS_CREDENTIAL_KEY=key
 AWS_CREDENTIAL_SECRET=key
 AWS_SESSION_TOKEN=token
 
-MONGO_URI='mongodb+srv://nguyenvanvy:619619vyvy@cluster0.fpl08.mongodb.net'
-DATABASE_HOST='mongodb+srv://nguyenvanvy:619619vyvy@cluster0.fpl08.mongodb.net'
-DATABASE_NAME='do-an-vy'
-DATABASE_OPTIONS='retryWrites=true'
-
 JWT_SECRET=StrongSecret123!
 JWT_EXPIRES_IN=1h
 JWT_NOT_BEFORE_EXPIRES_IN=30d
@@ -49,3 +44,5 @@ JWT_NOT_BEFORE_EXPIRES_IN=30d
 
 then run
 `npm start` or `npm start:dev` with hot reload
+
+Swagger running  : <http://127.0.0.1:3006/swagger/common>
