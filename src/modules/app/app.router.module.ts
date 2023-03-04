@@ -45,6 +45,7 @@ export class AppRouterModule {
     }
 
     if (process.env.APP_WEBSOCKET_ON === 'true') {
+      // TODO: Fix gateway module
       // imports.push(GatewayModules);
     }
 

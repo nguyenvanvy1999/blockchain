@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Block } from './block';
+import { Block } from '../dtos/block';
 import crypto from 'crypto-js';
 
 @Injectable()
